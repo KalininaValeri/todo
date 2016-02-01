@@ -1,5 +1,5 @@
-body {
-    weight: 800px;
+.container {
+    max-width: 750px;
 }
 h1 {
     text-align: center;
