@@ -1,8 +1,13 @@
+body {
+    background: #EEEEEE;
+}
+
 .container {
     max-width: 750px;
 }
 h1 {
     text-align: center;
+    color: #d9534f;
 }
 
 .completed label{
@@ -42,7 +47,16 @@ li:hover .close {
     display: block;
 }
 
+footer span {
+    color: #d9534f;
+}
+
 .button {
     display: inline-block;
     margin: 0 25px;
+}
+
+.clear {
+    background: #EEEEEE;
+    border: #EEEEEE;
 }
