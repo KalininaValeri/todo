@@ -1,0 +1,45 @@
+body {
+    weight: 800px;
+}
+h1 {
+    text-align: center;
+}
+
+.completed label{
+    text-decoration: line-through;
+}
+
+.editing label,
+li .close {
+
+}
+
+li:hover .close {
+    display: block;
+}
+
+.editing .view {
+    display: none;
+}
+
+.edit input {
+    padding-left: 19px;
+}
+
+li .close {
+    display: none;
+}
+
+li:hover .close {
+    display: block;
+}
+
+.edit {
+    display: none
+}
+
+.editing .edit {
+    display: block;
+}
+
+
